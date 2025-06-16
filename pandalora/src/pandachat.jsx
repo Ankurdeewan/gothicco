@@ -290,6 +290,45 @@ const PandaChat = () => {
           </button>
         </form>
       </footer>
+      <a
+  href="/auth/google"
+  style={{
+    position: "fixed",
+    top: 18,
+    right: 18,
+    display: "flex",
+    alignItems: "center",
+    gap: 12,
+    background: "#23234a",
+    color: "#fff",
+    border: "1.5px solid #2d323b",
+    borderRadius: 12,
+    padding: "10px 18px 10px 16px",
+    fontWeight: 600,
+    fontSize: 16,
+    textDecoration: "none",
+    boxShadow: "0 2px 12px #0003",
+    transition: "background 0.2s, border 0.2s",
+    cursor: "pointer",
+    zIndex: 1000,
+    minWidth: 0,
+  }}
+>
+  <img
+    
+    src="/google.png"
+    alt="Google Logo"
+    style={{
+      width: 24,
+      height: 24,
+      background: "#fff",
+      borderRadius: "50%",
+      padding: 2,
+      boxShadow: "0 1px 4px #0002",
+    }}
+  />
+  <span>Sign in with Google</span>
+</a>
       <style>
         {`
           @keyframes pandaTalk {
